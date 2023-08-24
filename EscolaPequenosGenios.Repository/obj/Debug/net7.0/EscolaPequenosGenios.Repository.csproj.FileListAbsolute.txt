@@ -1,0 +1,17 @@
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Repository.deps.json
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Repository.runtimeconfig.json
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Repository.dll
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Repository.pdb
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Domain.dll
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\bin\Debug\net7.0\EscolaPequenosGenios.Domain.pdb
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.csproj.AssemblyReference.cache
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.AssemblyInfoInputs.cache
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.AssemblyInfo.cs
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.csproj.CoreCompileInputs.cache
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.csproj.CopyComplete
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.dll
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\refint\EscolaPequenosGenios.Repository.dll
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.pdb
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\EscolaPequenosGenios.Repository.genruntimeconfig.cache
+C:\Users\notec\OneDrive\Área de Trabalho\EscolaPequenosGenios\EscolaPequenosGenios.Repository\obj\Debug\net7.0\ref\EscolaPequenosGenios.Repository.dll

@@ -1,0 +1,46 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.GetUsuarioDTO
+@{
+    Layout = "_LayoutDeslogado";
+    ViewData["Title"] = "Login";
+}
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="close">X</button>
+        @TempData["MensagemSucesso"]
+    </div>
+}
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="close">X</button>
+        @TempData["MensagemErro"]
+    </div>
+}
+
+<div class="wrapper">
+    <div class="logo">
+        <img src="~/images/LogoLogin.png" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+        Escola Pequenos Gênios
+    </div>
+    <form class="p-3 mt-3" asp-controller="Login" asp-action="Entrar" method="post">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" asp-for="Usuario" name="usuario" id="usuario" placeholder="Usuário">
+            @Html.ValidationMessageFor(x => x.Usuario)
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" asp-for="Senha" name="senha" id="senha" placeholder="Senha">
+            @Html.ValidationMessageFor(x => x.Senha)
+        </div>
+        <button type="submit" class="btn mt-3">Entrar</button>
+    </form>
+    <div class="text-center fs-6">
+        @*<a href="#">Forget password?</a> or <a href="#">Sign up</a>*@
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/styleLogin/login.css" asp-append-version="true" />

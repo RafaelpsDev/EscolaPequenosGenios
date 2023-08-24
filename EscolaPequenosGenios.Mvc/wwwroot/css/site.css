@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@font-face {
+    font-family: 'Nanum Pen';
+    src: url('nanum-pen-regular.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    position: absolute;
+    width: 30px;
+}
+
+.close-alert {
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 12px;
+    width: 30px;
+    height: 31px;
+    color: #5BF811;
+}
+
+.botao-buscar {
+    border-color: #000000;
+    border-radius: 8px;
+    border-width: 3px;
+    width: 1px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+}
+.input-buscar {
+    width: 180px;
+    border-radius: 3px;
+    text-align:center;
+}
+.field-validation-error {
+    display: flex;
+    justify-content: flex-start;
+    color: #f17373;
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+    border-radius: 6px;
+}
+
+.main__ajuste {
+    padding: 80%;
+}
+
+input {
+    margin-bottom: 2%;
+}
+
+body {
+    background: #ecf0f3;
+    color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 130%;
+}
+
+.ajusteInputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ajusteInputCep {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 16.2%;
+}
+
+.config-paragrafo {
+    display: flex;
+    justify-content: center;
+}
+
+.config-paragrafo__paragrafo {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Nanum Pen', cursive;
+    color: #B1ECFF;
+}
+
+.cabecalho__menu {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    border: solid #B1ECFF;
+    border-radius: 20px;
+    border-width: 7px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 25px;
+    gap: 60px;
+}
+
+.fonteEstilo {
+    -webkit-text-stroke-width: 1.7px;
+    -webkit-text-stroke-color: #000000;
+    text-decoration: none;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Nanum Pen', cursive;
+    letter-spacing: -3px;
+    display: flex;
+}
+
+.bemVindo {
+    display: flex;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 400;
+    color: #e5e41b;
+    font-family: 'Nanum Pen', cursive;
+    letter-spacing: -3px;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
+
+.sectionLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputFormulario {
+    border: solid #B1ECFF;
+    border-radius: 12px;
+    border-width: 3px;
+}
+
+.labelFormulario {
+    font-family: 'Alata', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+.texto-dados-historico {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+.secretaria__botoes {
+    display: flex;
+    width: 240px;
+    height: 200px;
+    border: 6px solid #B1ECFF;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+}
+
+.secretaria__botoes__fonte {
+    display: felx;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000000;
+    color: #B1ECFF;
+    font-family: Nanum Pen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.secretaria__ajusteBotoesTop {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    gap: 30px;
+}
+
+.inputPequeno {
+    width: 70px;
+}
+
+.ajuste-form-matricula {
+    display: flex;
+    align-content:center
+}
+.ajuste-botoes-formulario {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ajuste-botao-form-aluno {
+    display: flex;
+    justify-content: flex-end;    
+}
+.remove-borda-botao {
+    border: none;
+    outline: none;
+
+}
+.ajuste-botao-matricular {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5%
+}
+.botaoStyle {
+    width: 170px;
+    height: 70px;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000000;
+    border-radius: 8px;
+    border: 3px solid #8DC5FE;
+    font-family: 'Nanum Pen', cursive;
+    font-size: 40px;
+    color: #8DC5FE;
+    text-decoration: auto none;
+}
+.espaco-botoes {
+    display: flex;
+    justify-content: space-between;
+}

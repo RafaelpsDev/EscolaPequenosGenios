@@ -1,0 +1,28 @@
+﻿@model List<EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO>
+@{
+    ViewData["Title"] = "Dados do responsavel";
+}
+<div class="config-paragrafo">
+    <p class="config-paragrafo__paragrafo">Disciplinas do aluno</p>
+</div>
+@if (Model != null && Model.Any())
+{
+    foreach (EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO disciplina in Model)
+    {
+        <form asp-controller="Secretaria" asp-action="DisciplinasDaMatriculaInfo" method="get">
+            <div class="ajuste-botao-curso_extracurricular">
+                <div class="col-md-4 mb-3">
+                    <input id="meuInputGrande" type="text" class="inputFormulario form-control"
+                   asp-for="@disciplina.NomeDaDisciplina" value="@disciplina.NomeDaDisciplina" readonly>
+                </div>
+            </div>
+        </form>
+    }
+}
+<div class="botaoVoltar">
+    <p class="label-curso-extracurricular-grande">Voltar</p>
+    <a class="secretaria__botoes__fonte" href="@Url.Action("DadosDaMatriculaExtracurricularInfo", "Secretaria", new { ra = @ViewBag.Ra })">
+        <img src="/images/VoltarExtracurricular.png" alt="Voltar">
+    </a>
+</div>
+<link rel="stylesheet" href="~/css/styleCursosExtracurriculares/cursoExtracurricular.css" asp-append-version="true" />

@@ -1,0 +1,399 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\EscolaPequenosGenios.Mvc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\EscolaPequenosGenios.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\EscolaPequenosGenios.Application.csproj",
+        "projectName": "EscolaPequenosGenios.Application",
+        "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\EscolaPequenosGenios.Application.csproj",
+        "packagesPath": "C:\\Users\\notec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\notec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj"
+              },
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj",
+        "projectName": "EscolaPequenosGenios.Domain",
+        "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj",
+        "packagesPath": "C:\\Users\\notec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\notec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj",
+        "projectName": "EscolaPequenosGenios.IoC",
+        "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj",
+        "packagesPath": "C:\\Users\\notec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\notec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.1.21, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\EscolaPequenosGenios.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\EscolaPequenosGenios.Mvc.csproj",
+        "projectName": "EscolaPequenosGenios.Mvc",
+        "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\EscolaPequenosGenios.Mvc.csproj",
+        "packagesPath": "C:\\Users\\notec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\notec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\EscolaPequenosGenios.Application.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Application\\EscolaPequenosGenios.Application.csproj"
+              },
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj"
+              },
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj"
+              },
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj",
+        "projectName": "EscolaPequenosGenios.Infrastructure",
+        "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\EscolaPequenosGenios.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\notec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\notec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Domain\\EscolaPequenosGenios.Domain.csproj"
+              },
+              "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj": {
+                "projectPath": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Ioc\\EscolaPequenosGenios.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

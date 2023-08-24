@@ -1,0 +1,38 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.RequestMatriculaDTO
+@{
+    ViewData["Title"] = "Formulario de dados do Resonsável";
+}
+
+<form asp-controller="EscolaPequenosGenios" asp-action="DadosDeMatricula" method="post">
+    <div class="config-paragrafo" style="margin-top:10%">
+        <p class="config-paragrafo__paragrafo">Dados do curso</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="Curso">Curso *</label>
+            <select id="curso" name="NomeDoCurso" asp-for="NomeDoCurso" class="inputFormulario form-select input-field"></select>
+            @Html.ValidationMessageFor(x => x.NomeDoCurso)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="turno">Turno *</label>
+            <select name="Turno" asp-for=Turno class="inputFormulario form-select input-field">
+                <option value="">Selecione um turno</option>
+                <option value="M">M</option>
+                <option value="T">T</option>
+            </select>
+            @Html.ValidationMessageFor(x => x.Turno)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="serie">Série *</label>
+            <select id="serie" name="serie" asp-for="Serie" class="inputFormulario form-select input-field">
+                <option value="">Selecione uma série</option>
+            </select>
+            @Html.ValidationMessageFor(x => x.Serie)
+        </div>
+    </div>
+    <div class="ajuste-botao-form-aluno">
+        <p class="config-paragrafo__paragrafo">Próximo</p>
+        <button class="remove-borda-botao" type="submit" role="button"><img src="/images/SetaProximo.png" alt="Imagem disciplina"></button>
+    </div>
+</form>
+

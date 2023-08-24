@@ -1,0 +1,101 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.RequestAlunoDTO
+@{
+    ViewData["Title"] = "Formulario de matrícula";
+}
+
+<form asp-controller="EscolaPequenosGenios" asp-action="DadosDoAluno" method="post">
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados do aluno</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="form-field col-md-3 mb-3">
+            <label class="labelFormulario" for="nome">Nome *</label>
+            <input type="text" asp-for="Nome" class="inputFormulario form-control" required>
+            @Html.ValidationMessageFor(x => x.Nome)
+        </div>
+        <div class="form-field col-md-2 mb-3">
+            <label class="labelFormulario" for="cpf">CPF *</label>
+            <input onKeyPress="MascaraGenerica(this, 'CPF');" pattern="([0-9]{3}).([0-9]{3}).([0-9]{3})-([0-9]{2})" placeholder="000.000.000-00"
+                   type="text" class="inputFormulario form-control" asp-for=Cpf>
+            @Html.ValidationMessageFor(x => x.Cpf)
+        </div>
+        <div class="form-field col-sm-2 mb-3">
+            <label class="labelFormulario" for="sexo">Sexo *</label>
+            <select name="Sexo" asp-for=Sexo class="inputFormulario form-select">
+                <option value="">Selecione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Não informado">Não informado</option>
+            </select>
+            @Html.ValidationMessageFor(x => x.Sexo)
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-sm-1 mb-3 inputPequeno">
+            <label onKeyPress="MascaraGenerica(this, 'DDD');" class="labelFormulario" for="ddd">DDD</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Ddd placeholder="00">
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="labelFormulario" for="telefone">Telefone *</label>
+            <input onKeyPress="MascaraGenerica(this, 'CELULAR');" asp-for=Telefone placeholder="00000-0000"
+                   type="text" class="inputFormulario form-control">
+            @Html.ValidationMessageFor(x => x.Telefone)
+        </div>
+        <div class="form-field col-sm-2 mb-3">
+            <label class="labelFormulario" for="valida">E-mail *</label>
+            <input type="email" class="inputFormulario form-control input-field" asp-for=Email placeholder="email@email.com">
+            @Html.ValidationMessageFor(x => x.Email)
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="form-field col-md-4 mb-3">
+            <label class="labelFormulario" for="mae">Mae *</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Mae placeholder="Nome">
+            @Html.ValidationMessageFor(x => x.Mae)
+        </div>
+        <div class="form-field col-md-4 mb-3">
+            <label class="labelFormulario" for="pai">Pai</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Pai placeholder="Pai">
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="form-field col-md-1 mb-3">
+            <label class="labelFormulario" for="cep">CEP *</label>
+            <input onKeyPress="MascaraGenerica(this, 'CEP');"
+                   type="text" class="inputFormulario form-control input-field" asp-for=Cep placeholder="00000-000">
+            @Html.ValidationMessageFor(x => x.Cep)
+        </div>
+        <div class="form-field col-md-4 mb-3">
+            <label class="labelFormulario" for="logradouro">Logradouro *</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Logradouro placeholder="Rua/Av...">
+            @Html.ValidationMessageFor(x => x.Logradouro)
+        </div>
+        <div class="form-field col-md-4 mb-3 inputPequeno">
+            <label class="labelFormulario" for="numero">Nº *</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Numero>
+            @Html.ValidationMessageFor(x => x.Numero)
+        </div>
+        <div class="form-field col-md-1 mb-1">
+            <label class="labelFormulario" for="Complemento">Complemento</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Complemento>
+        </div>
+    </div>
+    <div class="form-field ajusteInputs">
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cidade">Cidade *</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Cidade>
+            @Html.ValidationMessageFor(x => x.Cidade)
+        </div>
+        <div class="form-field col-md-4 mb-3 inputPequeno">
+            <label class="labelFormulario" for="uf">UF *</label>
+            <input type="text" class="inputFormulario form-control input-field" asp-for=Uf>
+            @Html.ValidationMessageFor(x => x.Uf)
+        </div>
+    </div>
+    <div class="ajuste-botao-form-aluno">
+        <p class="config-paragrafo__paragrafo">Próximo</p>
+        <button class="remove-borda-botao" type="submit" ole="button"><img src="/images/SetaProximo.png" alt="Imagem disciplina"></button>
+    </div>
+</form>
+
+

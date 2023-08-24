@@ -1,0 +1,108 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.RequestMatriculaCursosExtracurricularesDTO
+@{
+    ViewData["Title"] = "Formulario de dados do Resonsável";
+}
+<form asp-controller="EscolaPequenosGenios" asp-action="DadosCursoExtracurricular" method="post">
+    <div class="config-paragrafo" style="margin-top:10%">
+        <p class="label-curso-extracurricular">Escolha um curso extracurricular para o aluno</p>
+    </div>
+    <div class="ajuste-botao-curso_extracurricular">
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="Python">
+                Introd. à Programação em Python
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="python" class="hidden-input" value="Introdução à Programação em Python para Crianças" />
+                <img class="margin-intro-python" src="/images/IntroPythonLogo.png" alt="Imagem Introdução Phyton"
+                     onclick="atualizarValorDoCurso('Introdução à Programação em Python para Crianças')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="aventurasCodificacao">
+                Aventuras na Codificação
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="aventuraCodificacao" class="hidden-input" value="Aventuras na Codificação para Crianças" />
+                <img class="margin-aventura-cod" src="/images/AventurasCodificacaoCriancasLogo.png" alt="Imagem Aventuras na Codificação"
+                     onclick="atualizarValorDoCurso('Aventuras na Codificação para Crianças')" />
+            </div>
+        </div>
+    </div>
+    <div class="ajuste-botao-curso_extracurricular">
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="devweb">
+                Desenvolvimento Web
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="devweb" class="hidden-input" value="Desenvolvimento Web para Crianças" />
+                <img class="margin-imagem" src="/images/DesenvolvimentoWebParaCriancas.png" alt="Imagem Desenvolvimento Web"
+                     onclick="atualizarValorDoCurso('Desenvolvimento Web para Crianças')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="robotica">
+                Iniciação à Robótica
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="robotica" class="hidden-input" value="Iniciação à Robótica para Crianças" />
+                <img class="margin-imagem" src="/images/IniciacaoRobóticaParaCriancas.png" alt="Imagem Animacao"
+                     onclick="atualizarValorDoCurso('Iniciação à Robótica para Crianças')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="scratch">
+                Program. Criativa com Scratch
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="scratch" class="hidden-input" value="Programação Criativa com Scratch para Crianças" />
+                <img class="margin-scratch" src="/images/ProgramacaoCriativaComScratchParaCriancas.png" alt="Imagem Scratch"
+                     onclick="atualizarValorDoCurso('Programação Criativa com Scratch para Crianças')" />
+            </div>
+        </div>
+    </div>
+    <div class="ajuste-botao-curso_extracurricular">
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="inventor">
+                Desenv. App Inventor
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="inventor" class="hidden-input" value="Desenv. de Apps com App Inventor para Crianças" />
+                <img class="margin-imagem" src="/images/DesenvAppsInventorParaCriancas.png" alt="Imagem Inventor"
+                     onclick="atualizarValorDoCurso('Desenv. de Apps com App Inventor para Crianças')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="robosELogo">
+                Program. com Robôs e Logo
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="robosELogo" class="hidden-input" value="Aventuras de Programação com Robôs e Logo" />
+                <img class="margin-imagem" src="/images/AventurasProgramRobosLogo.png" alt="Imagem Introdução Robôs e Logo"
+                     onclick="atualizarValorDoCurso('Aventuras de Programação com Robôs e Logo')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="jogos">
+                Criação de Jogos
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="jogos" class="hidden-input" value="Criação de Jogos para Jovens Programadores" />
+                <img class="margin-jogos" src="/images/CriacaoJogosJovensProgramadoresLogo.png" alt="Imagem Jogos"
+                     onclick="atualizarValorDoCurso('Criação de Jogos para Jovens Programadores')" />
+            </div>
+        </div>
+        <div class="posicao-label-botao-curso-extracurricular">
+            <label class="label-curso-extracurricular" for="divertidaPython">
+                Programação Divertida com Python
+            </label>
+            <div class="modura-imagem">
+                <input type="submit" name="NomeDoCurso" id="progDivetidaPython" class="hidden-input" value="Programação Divertida com Python para Crianças" />
+                <img class="margin-program-divertida-python" src="/images/ProgramacaoDivertidaComPythonParaCriancas.png"
+                     alt="Imagem Programação Divertida com Python" onclick="atualizarValorDoCurso('Programação Divertida com Python para Crianças')" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<link rel="stylesheet" href="~/css/styleCursosExtracurriculares/cursoExtracurricular.css" asp-append-version="true" />

@@ -1,0 +1,45 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.RequestUsuarioDTO
+@{
+    ViewData["Title"] = "Formulario de criação de usuário";
+}
+
+<form asp-controller="Usuario" asp-action="Criar" method="post">
+
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados do usuário</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="nome">Nome</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Nome placeholder="Nome">
+            @Html.ValidationMessageFor(x => x.Nome)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cpf">CPF</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Cpf placeholder="Cpf">
+            @Html.ValidationMessageFor(x => x.Cpf)
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="setor">Setor</label>
+            <select class="inputFormulario form-select" asp-for="Setor" aria-label="Default select example">
+                <option selected>Selecione...</option>
+                <option value="Secretaria">Secretaria</option>
+                <option value="Adm">Adm</option>
+            </select>
+            @Html.ValidationMessageFor(x => x.Setor)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="senha">Senha</label>
+            <input type="password" class="inputFormulario form-control" asp-for=Senha placeholder="Senha">
+            @Html.ValidationMessageFor(x => x.Senha)
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <input class="botao-buscar" style="width:10%" type="submit" value="Criar" />
+    </div>
+
+</form>
+
+<link rel="stylesheet" href="~/css/styleSecretaria/secretaria.css" asp-append-version="true" />

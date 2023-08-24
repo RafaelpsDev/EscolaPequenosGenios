@@ -1,0 +1,27 @@
+﻿@model List<EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO>
+@{
+    ViewData["Title"] = "Dados do responsavel";
+}
+<div class="config-paragrafo">
+    <p class="config-paragrafo__paragrafo">Disciplinas do aluno</p>
+</div>
+@if (Model != null && Model.Any())
+{
+    foreach (EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO disciplina in Model)
+    {
+        <form asp-controller="Secretaria" asp-action="DisciplinasDaMatriculaInfo" method="get">
+            <div class="ajusteInputs">
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="inputFormulario form-control"
+                   asp-for="@disciplina.NomeDaDisciplina" value="@disciplina.NomeDaDisciplina" readonly>
+                </div>
+            </div>
+        </form>
+    }
+}
+<div style="gap: 40px">
+    <p class="labelFormulario">Voltar</p>
+    <a class="secretaria__botoes__fonte" href="@Url.Action("DadosDaMatriculaInfo", "Secretaria", new { ra = @ViewBag.Ra })" role="button">
+        <img src="/images/SetaVoltar.png" alt="Voltar">
+    </a>
+</div>

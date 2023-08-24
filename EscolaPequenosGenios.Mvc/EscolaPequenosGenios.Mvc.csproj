@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="wwwroot\js\scripts\**" />
+	  <Content Remove="wwwroot\js\scripts\**" />
+	  <EmbeddedResource Remove="wwwroot\js\scripts\**" />
+	  <None Remove="wwwroot\js\scripts\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Abp" Version="8.3.1" />
+		<PackageReference Include="DinkToPdf" Version="1.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.8">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\EscolaPequenosGenios.Application\EscolaPequenosGenios.Application.csproj" />
+		<ProjectReference Include="..\EscolaPequenosGenios.Domain\EscolaPequenosGenios.Domain.csproj" />
+		<ProjectReference Include="..\EscolaPequenosGenios.Ioc\EscolaPequenosGenios.IoC.csproj" />
+		<ProjectReference Include="..\EscolaPequenosGenios.Repository\EscolaPequenosGenios.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

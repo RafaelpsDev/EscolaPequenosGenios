@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Importação da fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+    <style>
+
+        /* Estilos para a tabela */
+        table {
+            width: 100%;
+            border: solid 3px #B1ECFF;
+            border-radius: 8px;
+            text-align: center;
+            padding: 0.1%;
+        }
+
+        td {
+            padding: 8px;
+            text-align: center;
+            font-family: 'Alata', sans-serif;
+            font-size: 15px;
+            color: #000000;
+        }
+
+        th {
+            padding: 5px;
+            border-collapse: collapse;
+            color: #000000;
+            font-family: 'Alata', sans-serif;
+            font-size: 15px;
+            color: #000000;
+        }
+
+        /* Outros estilos */
+        body {
+            font-family: 'Alata', sans-serif;
+            font-size: 15px;
+            color: #000000;
+        }
+
+        .posicao-imagem {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .config-paragrafo__paragrafo {
+            display: flex;
+            text-align: center;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #000000;
+            font-size: 60px;
+            font-weight: 400;
+            font-family: 'Nanum Pen', cursive;
+            color: #B1ECFF;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Histórico do aluno</p>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th style="border-radius: 7px 0px 0px 0px;">Ra</th>
+                <th>Curso</th>
+                <th>Disciplina</th>
+                <th>Serie</th>
+                <th>Nota</th>
+                <th>Frequência</th>
+                <th>Situação</th>
+                <th style="border-radius: 0px 7px 0px 0px;">Data de inserção</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var historico in Model)
+            {
+                <tr>
+                    <td>@historico.Ra</td>
+                    <td>@historico.NomeDoCurso</td>
+                    <td>@historico.NomeDaDisciplina</td>
+                    <td>@historico.Serie</td>
+                    <td>@historico.Nota</td>
+                    <td>@historico.Frequencia</td>
+                    <td>@historico.Situacao</td>
+                    <td>@historico.DataDeInsercao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

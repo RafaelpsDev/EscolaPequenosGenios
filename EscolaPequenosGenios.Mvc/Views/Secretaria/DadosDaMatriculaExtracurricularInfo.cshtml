@@ -1,0 +1,52 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO
+@{
+    ViewData["Title"] = "Dados da matrícula";
+}
+
+<form asp-controller="Secretaria" asp-action="DadosDaMatriculaInfo" method="get">
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo" style="margin-top:10%">Dados da matrícula do curso extracurricular</p>
+    </div>
+
+    <div class="ajuste-botao-curso_extracurricular">
+        <div class="col-md-4 mb-3">
+            <label class="label-curso-extracurricular" for="ra">Ra</label>
+            <input type="text" id="meuInputPequeno" class="inputFormularioExtracurricular form-control" asp-for=Ra readonly>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="label-curso-extracurricular" for="nome">Curso</label>
+            <input type="text" id="meuInputGrande" class="inputFormularioExtracurricular form-control" asp-for=NomeDoCurso readonly>
+        </div>
+    </div>
+    <div class="ajuste-botao-curso_extracurricular">
+        <div class="col-md-2 mb-3">
+            <label class="label-curso-extracurricular" for="dataDaMatricula"> Data da matrícula</label>
+            <input type="text" id="meuInputPequeno" class="inputFormularioExtracurricular form-control" asp-for=DataDaMatricula readonly>
+        </div>
+    </div>
+
+</form>
+@if (Model != null)
+{
+    <div class="ajuste-botao-curso_extracurricular">
+        <p class="label-curso-extracurricular" style="margin-top:5%"><strong>Clique no botão "Disciplinas" para acessar as disciplinas da matrícula:</strong></p>
+    </div>
+    <div class="espaco-botoes">
+        <div class="botao-voltar">
+            <p class="label-curso-extracurricular-grande">Voltar</p>
+            <a class="secretaria__botoes__fonte" href="@Url.Action("Secretaria", "Secretaria", new { ra = @ViewBag.Ra })">
+                <img src="/images/VoltarExtracurricular.png" alt="Voltar">
+            </a>
+        </div>
+        <div class="botao-proximo">
+            <p class="label-curso-extracurricular-grande">Disciplinas</p>
+            <a class="secretaria__botoes__fonte" href="@Url.Action("DisciplinasExtracurricularDaMatriculaInfo", "Secretaria", new { ra = @ViewBag.Ra })">
+                <img src="/images/ProximoCurricular.png" alt="Imagem Extracurricular">
+            </a>
+        </div>
+    </div>
+}
+
+
+<link rel="stylesheet" href="~/css/styleCursosExtracurriculares/cursoExtracurricular.css" asp-append-version="true" />
+

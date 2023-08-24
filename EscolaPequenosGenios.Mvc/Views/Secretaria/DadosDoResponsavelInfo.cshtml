@@ -1,0 +1,43 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO
+@{
+    ViewData["Title"] = "Dados do responsavel";
+}
+
+
+<form asp-controller="Secretaria" asp-action="DadosDoResponsavelInfo" method="get">
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados do aluno</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="nome">Nome</label>
+            <input type="text" class="inputFormulario form-control" asp-for=NomeResponsavel value="@Model.NomeResponsavel" readonly>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cpf"> CPF</label>
+            <input type="text" class="inputFormulario form-control" asp-for=CpfResponsavel value="@Model.CpfResponsavel" readonly>
+        </div>        
+    </div>
+    <div class="ajusteInputs">
+        <div class=" col-sm-2 mb-3 inputPequeno">
+            <label class="labelFormulario" for="ddd">DDD</label>
+            <input type="text" class="inputFormulario form-control" asp-for=DddResponsavel value="@Model.DddResponsavel" readonly>
+        </div>
+        <div class=" col-sm-2 mb-3">
+            <label class="labelFormulario" for="telefone">Telefone</label>
+            <input type="text" class="inputFormulario form-control" asp-for=TelefoneResponsavel value="@Model.TelefoneResponsavel" readonly>
+        </div>
+        <div class=" col-sm-2 mb-3">
+            <label class="labelFormulario" for="email">E-mail</label>
+            <input type="text" class="inputFormulario form-control" asp-for=EmailResponsavel value="@Model.EmailResponsavel" readonly>
+        </div>
+    </div>
+    <div style="gap: 40px">
+        <p class="labelFormulario">Voltar</p>
+        <a class="secretaria__botoes__fonte" href="@Url.Action("Secretaria", "Secretaria", new { ra = @ViewBag.Ra })">
+            <img src="/images/SetaVoltar.png" alt="Voltar">
+        </a>
+    </div>
+</form>
+
+

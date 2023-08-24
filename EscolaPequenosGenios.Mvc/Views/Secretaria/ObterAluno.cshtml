@@ -1,0 +1,27 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO
+@{
+    ViewData["Title"] = "Buscar aluno";
+}
+<form asp-controller="Secretaria" asp-action="Secretaria" method="get">
+    <div class="ajusteInputs">
+        <p class="labelFormulario"><strong>Buscar aluno</strong></p>
+        @Html.TextBox("ra", null, new { type = "text", @class = "input-buscar"})
+        <input class="botao-buscar" style="width:10%" type="submit" value="Buscar" />
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <div class="margemObterAluno">
+        <div class="ajusteInputs">
+            <p class="labelFormulario"><strong>Clique abaixo para acessar a secretaria do aluno:</strong></p>
+        </div>
+        <div class="ajusteInputs">
+            <div class="secretaria__botoes">
+                <a class="config-paragrafo__paragrafo" style="text-decoration: none" href="@Url.Action("Secretaria", "Secretaria", new { ra = Model.Ra })">Secretaria</a>
+            </div>
+        </div>
+    </div>
+}
+
+<link rel="stylesheet" href="~/css/styleSecretaria/secretaria.css" asp-append-version="true" />

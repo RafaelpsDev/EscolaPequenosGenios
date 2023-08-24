@@ -1,0 +1,7 @@
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '1', 'Linguagem e Comunicação', '1', '9.00', '90', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '2', 'Matemática Exploratória', '1', '8.50', '100', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '3', 'Artes e Expressão Criativa', '1', '9.50', '95', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '4', 'Educação Física', '1', '8.00', '80', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '5', 'Ciências Naturais', '1', '10.00', '100', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '6', 'Estudos Sociais', '1', '8.00', '90', 'Concluído', GETDATE())
+INSERT INTO TB_HISTORICOS VALUES ('45712737', '1', 'ENSINO INFANTIL', '2023_EI_1', 'M', '7', 'Música e Movimento', '1', '10.00', '100', 'Concluído', GETDATE())

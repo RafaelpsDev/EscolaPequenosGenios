@@ -1,0 +1,190 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.hidden-input {
+    display: none;
+}
+.error {
+    position: absolute;
+    width: 30px;
+}
+
+.field-validation-error {
+    display: flex;
+    justify-content: flex-start;
+    color: #42C920;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    border-radius: 6px;
+}
+
+.menu_extracurricular {
+    background-color: #000000;
+    color: #42C920;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+body {
+    background-color: #000000;
+    color: #42C920;
+    /*box-sizing: border-box;*/
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    font-family: 'VT323', monospace;
+}
+
+.label-curso-extracurricular {
+    color: #42C920;
+    font-family: 'Cascadia Mono', monospace;
+    font-size: 14px;
+}
+
+.label-curso-extracurricular-grande {
+    color: #42C920;
+    font-family: 'Cascadia Mono', monospace;
+    font-size: 32px;
+}
+
+.ajuste-botao-curso_extracurricular {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ajuste-botao-matricular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5%
+}
+
+#meuInputGrande {
+    border: solid #42C920;
+    color: #B1ECFF;
+    text-align: center;
+    background-color: black;
+    border-radius: 12px;
+    border-width: 3px;
+    width: 80%;
+}
+#meuInputPequeno {
+    border: solid #42C920;
+    color: #B1ECFF;
+    text-align: center;
+    background-color: black;
+    border-radius: 12px;
+    border-width: 3px;
+    width: 95px;
+}
+
+.posicao-label-botao-curso-extracurricular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+.margin-intro-python {
+    padding: 52px 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+    .margin-intro-python:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+.margin-aventura-cod {
+    padding: 53px 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+    .margin-aventura-cod:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+.margin-imagem {
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+    .margin-imagem:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+
+.margin-scratch {
+    padding: 54px 58px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+    .margin-scratch:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+.margin-jogos {
+    padding: 61px 59px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+    .margin-jogos:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+
+.margin-program-divertida-python {
+    padding: 67px 57.1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+   .margin-program-divertida-python:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100.5%;
+    }
+
+.espaco-botoes {
+    display:flex;
+    justify-content:space-between;
+}
+
+.botao-voltar {
+    display: flex;
+    flex-direction:column;
+    align-content:flex-start;
+}
+.botao-proximo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}

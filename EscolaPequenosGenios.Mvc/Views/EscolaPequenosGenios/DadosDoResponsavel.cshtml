@@ -1,0 +1,47 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.RequestResponsavelDTO
+@{
+    ViewData["Title"] = "Formulario de dados do Resonsável";
+}
+
+<form asp-controller="EscolaPequenosGenios" asp-action="DadosDoResponsavel" method="post">
+
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados do Responsável</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="form-field col-md-4 mb-3">
+            <label class="labelFormulario" for="nome">Nome *</label>
+            <input type="text" asp-for=Nome class="inputFormulario form-control input-field">
+            @Html.ValidationMessageFor(x => x.Nome)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cpf">CPF *</label>
+            <input onKeyPress="MascaraGenerica(this, 'CPF');" pattern="([0-9]{3}).([0-9]{3}).([0-9]{3})-([0-9]{2})" placeholder="000.000.000-00"            
+                   class="inputFormulario form-control input-field" asp-for=Cpf>
+            @Html.ValidationMessageFor(x => x.Cpf)
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class=" col-sm-1 mb-3 inputPequeno">
+            <label onKeyPress="MascaraGenerica(this, 'DDD');" class="labelFormulario" for="ddd">DDD *</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Ddd maxlength="2">
+            @Html.ValidationMessageFor(x => x.Ddd)
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="telefone">Telefone *</label>
+            <input onKeyPress="MascaraGenerica(this, 'CELULAR');" asp-for=Telefone placeholder="00000-0000"
+                   type="text" class="inputFormulario form-control input-field">
+            @Html.ValidationMessageFor(x => x.Telefone)
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="email">E-mail *</label>
+            <input type="email" class="inputFormulario form-control" style="text-transform:lowercase" asp-for=Email placeholder="email@email.com">
+            @Html.ValidationMessageFor(x => x.Email)
+        </div>        
+    </div>
+    <div class="ajuste-botao-form-aluno">
+        <p class="config-paragrafo__paragrafo">Próximo</p>
+        <button class="remove-borda-botao" type="submit" ole="button"><img src="/images/SetaProximo.png" alt="Imagem disciplina"></button>
+    </div>
+</form>
+

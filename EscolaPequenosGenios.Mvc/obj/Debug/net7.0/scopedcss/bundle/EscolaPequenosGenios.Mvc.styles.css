@@ -1,0 +1,98 @@
+/* _content/EscolaPequenosGenios.Mvc/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-5302uvpldn] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-5302uvpldn] {
+  color: #0077cc;
+}
+
+.btn-primary[b-5302uvpldn] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-5302uvpldn], .nav-pills .show > .nav-link[b-5302uvpldn] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-5302uvpldn] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-5302uvpldn] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-5302uvpldn] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-5302uvpldn] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-5302uvpldn] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/EscolaPequenosGenios.Mvc/Views/Shared/_LayoutDeslogado.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-cuoco7k4th] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-cuoco7k4th] {
+  color: #0077cc;
+}
+
+.btn-primary[b-cuoco7k4th] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-cuoco7k4th], .nav-pills .show > .nav-link[b-cuoco7k4th] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-cuoco7k4th] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-cuoco7k4th] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-cuoco7k4th] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-cuoco7k4th] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-cuoco7k4th] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

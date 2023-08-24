@@ -1,0 +1,64 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO
+@{
+    ViewData["Title"] = "Dados da matrícula";
+}
+
+<form asp-controller="Secretaria" asp-action="DadosDaMatriculaInfo" method="get">
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados da matrícula</p>
+    </div>
+
+    <div class="ajusteInputs">
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="ra">Ra</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Ra readonly>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="nome">Curso</label>
+            <input type="text" class="inputFormulario form-control" asp-for=NomeDoCurso readonly>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="turma"> Turma</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Turma readonly>
+        </div>
+        <div class="col-md-1 mb-1">
+            <label class="labelFormulario" for="turno"> Turno</label>
+            <input type="text" class="inputFormulario form-control inputPequeno" asp-for=Turno readonly>
+        </div>
+        <div class="col-md-1 mb-1">
+            <label class="labelFormulario" for="serie"> Serie</label>
+            <input type="text" class="inputFormulario form-control inputPequeno" asp-for=Serie readonly>
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="dataDaMatricula"> Data da matrícula</label>
+            <input type="text" class="inputFormulario form-control" asp-for=DataDaMatricula readonly>
+        </div>
+    </div>
+
+</form>
+@if (Model != null)
+{
+    <div class="ajusteInputs">
+        <p class="labelFormulario"><strong>Clique abaixo para acessar as disciplinas do aluno:</strong></p>
+    </div>
+     <div class="espaco-botoes">
+        <div class="botao-voltar">
+            <p class="labelFormulario">Voltar</p>
+            <a class="secretaria__botoes__fonte" href="@Url.Action("Secretaria", "Secretaria", new { ra = @ViewBag.Ra })">
+                <img src="/images/SetaVoltar.png" alt="Voltar">
+            </a>
+        </div>
+        <div class="botao-proximo">
+            <p class="config-paragrafo__paragrafo">Disciplinas</p>
+            <a class="secretaria__botoes__fonte" href="@Url.Action("DisciplinasDaMatriculaInfo", "Secretaria", new { ra = @ViewBag.Ra })">
+                <img src="/images/SetaProximo.png" alt="Imagem disciplina">
+            </a>
+        </div>
+    </div>
+
+}
+
+
+

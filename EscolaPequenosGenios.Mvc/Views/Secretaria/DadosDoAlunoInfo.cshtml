@@ -1,0 +1,88 @@
+﻿@model EscolaPequenosGenios.IoC.DTOs.ResponseSecretariaDTO
+@{
+    ViewData["Title"] = "Dados do aluno";
+}
+
+<form asp-controller="Secretaria" asp-action="DadosDoAlunoInfo" method="get">
+    <div class="config-paragrafo">
+        <p class="config-paragrafo__paragrafo">Dados do aluno</p>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="ra">RA</label>
+            <input type="text" asp-for="Ra" class="inputFormulario form-control" value="@Model.Ra" readonly>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="nome">Nome</label>
+            <input type="text" asp-for="Nome" class="inputFormulario form-control" value="@Model.Nome" readonly>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cpf"> CPF</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Cpf value="@Model.Cpf" readonly>
+        </div>
+        <div class=" col-sm-1 mb-3">
+            <label class="labelFormulario" for="sexo">Sexo</label>
+            <input type="text" class="inputFormulario form-control" value="@Model.Sexo" readonly>
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class=" col-sm-2 mb-3">
+            <label class="labelFormulario" for="telefone">Telefone</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Telefone value="@Model.Telefone" readonly>
+        </div>
+        <div class=" col-sm-2 mb-3">
+            <label class="labelFormulario" for="email">E-mail</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Email value="@Model.Email" readonly>
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="mae">Mae</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Mae value="@Model.Mae" readonly>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="pai">Pai</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Pai value="@Model.Pai" readonly>
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class="col-md-1 mb-3">
+            <label class="labelFormulario" for="cep">CEP</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Cep value="@Model.Cep" readonly>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label class="labelFormulario" for="logradouro">Logradouro</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Logradouro value="@Model.Logradouro" readonly>
+        </div>
+        <div class="col-md-4 mb-3 inputPequeno">
+            <label class="labelFormulario" for="numero">Nº</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Numero value="@Model.Numero" readonly>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="Complemento">Complemento</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Complemento value="@Model.Complemento" readonly>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label class="labelFormulario" for="cidade">Cidade</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Cidade value="@Model.Cidade" readonly>
+        </div>
+        <div class="col-md-4 mb-3 inputPequeno">
+            <label class="labelFormulario" for="uf">UF</label>
+            <input type="text" class="inputFormulario form-control" asp-for=Uf value="@Model.Uf" readonly>
+        </div>
+    </div>
+    <div class="ajusteInputs">
+        <div class=" col-sm-1 mb-3 inputPequeno">
+            <label class="labelFormulario" for="situacao">Situação</label>
+            <input type="text" class="inputFormulario form-control" value="@Model.Situacao" readonly>
+        </div>
+    </div>
+
+    
+    <div style="gap: 40px">
+        <p class="labelFormulario">Voltar</p>
+        <a class="secretaria__botoes__fonte" href="@Url.Action("Secretaria", "Secretaria", new { ra = Model.Ra })" role="button">
+            <img src="/images/SetaVoltar.png" alt="Voltar">
+        </a>
+    </div>
+</form>

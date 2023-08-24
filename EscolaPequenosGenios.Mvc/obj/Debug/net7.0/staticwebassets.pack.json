@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EscolaPequenosGenios.Mvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EscolaPequenosGenios.Mvc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\css\\nanum-pen-regular.ttf",
+      "PackagePath": "staticwebassets\\css\\nanum-pen-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\css\\styleCursosExtracurriculares\\cursoExtracurricular.css",
+      "PackagePath": "staticwebassets\\css\\styleCursosExtracurriculares\\cursoExtracurricular.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\css\\styleLogin\\login.css",
+      "PackagePath": "staticwebassets\\css\\styleLogin\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\css\\styleSecretaria\\secretaria.css",
+      "PackagePath": "staticwebassets\\css\\styleSecretaria\\secretaria.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\AventurasCodificacaoCriancasLogo.png",
+      "PackagePath": "staticwebassets\\images\\AventurasCodificacaoCriancasLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\AventurasProgramRobosLogo.png",
+      "PackagePath": "staticwebassets\\images\\AventurasProgramRobosLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\BoletimImg.png",
+      "PackagePath": "staticwebassets\\images\\BoletimImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\CertificadodeconclusaoImg.png",
+      "PackagePath": "staticwebassets\\images\\CertificadodeconclusaoImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\CriacaoJogosJovensProgramadoresLogo.png",
+      "PackagePath": "staticwebassets\\images\\CriacaoJogosJovensProgramadoresLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\DadosDoAlunoImg.png",
+      "PackagePath": "staticwebassets\\images\\DadosDoAlunoImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\DesenvAppsInventorParaCriancas.png",
+      "PackagePath": "staticwebassets\\images\\DesenvAppsInventorParaCriancas.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\DesenvolvimentoWebParaCriancas.png",
+      "PackagePath": "staticwebassets\\images\\DesenvolvimentoWebParaCriancas.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\FiliacaoImg.png",
+      "PackagePath": "staticwebassets\\images\\FiliacaoImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\HistoricoImg.png",
+      "PackagePath": "staticwebassets\\images\\HistoricoImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\IniciacaoRobóticaParaCriancas.png",
+      "PackagePath": "staticwebassets\\images\\IniciacaoRobóticaParaCriancas.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\IntroPythonLogo.png",
+      "PackagePath": "staticwebassets\\images\\IntroPythonLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\LogoLogin.png",
+      "PackagePath": "staticwebassets\\images\\LogoLogin.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\LogoPdf.png",
+      "PackagePath": "staticwebassets\\images\\LogoPdf.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\LogoPequenosGenios.png",
+      "PackagePath": "staticwebassets\\images\\LogoPequenosGenios.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\MatriculaImg.png",
+      "PackagePath": "staticwebassets\\images\\MatriculaImg.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\ProgramacaLogo.png",
+      "PackagePath": "staticwebassets\\images\\ProgramacaLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\ProgramacaoCriativaComScratchParaCriancas.png",
+      "PackagePath": "staticwebassets\\images\\ProgramacaoCriativaComScratchParaCriancas.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\ProgramacaoDivertidaComPythonParaCriancas.png",
+      "PackagePath": "staticwebassets\\images\\ProgramacaoDivertidaComPythonParaCriancas.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\ProximoCurricular.png",
+      "PackagePath": "staticwebassets\\images\\ProximoCurricular.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\SetaProximo.png",
+      "PackagePath": "staticwebassets\\images\\SetaProximo.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\SetaVoltar.png",
+      "PackagePath": "staticwebassets\\images\\SetaVoltar.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\images\\VoltarExtracurricular.png",
+      "PackagePath": "staticwebassets\\images\\VoltarExtracurricular.png"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\js\\exportPdf.js",
+      "PackagePath": "staticwebassets\\js\\exportPdf.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\notec\\OneDrive\\Área de Trabalho\\Projetos\\EscolaPequenosGenios\\EscolaPequenosGenios.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EscolaPequenosGenios.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EscolaPequenosGenios.Mvc.props",
+      "PackagePath": "build\\EscolaPequenosGenios.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EscolaPequenosGenios.Mvc.props",
+      "PackagePath": "buildMultiTargeting\\EscolaPequenosGenios.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EscolaPequenosGenios.Mvc.props",
+      "PackagePath": "buildTransitive\\EscolaPequenosGenios.Mvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
